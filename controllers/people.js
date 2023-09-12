@@ -9,7 +9,7 @@ const getAllPeople = async(req,res)=>{
 //CREATE PERSON
 const createPerson = async(req,res)=>{
     const person = await Person.create(req.body)
-    res.status(StatusCodes.OK).json({person})
+    res.status(StatusCodes.CREATED).json({person})
 }
 
 // READ PERSON

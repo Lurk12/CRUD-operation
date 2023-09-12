@@ -16,9 +16,8 @@ app.use(express.json())
 app.get('/', (req, res)=>{
     res.status(StatusCodes.OK).send('people...')
 })
-
-app.use('/api/:id', people)
 app.use('/api', people)
+app.use('/api/:id', people)
 
 
 
