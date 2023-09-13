@@ -1,4 +1,4 @@
-# HNG-TASK-2
+  # HNG-TASK-2
 
 # People API
 
@@ -13,8 +13,7 @@ A simple Express.js REST API for managing people. This project demonstrates basi
   - [API Endpoints](#api-endpoints)
 - [Error Handling](#error-handling)
 - [Custom Errors](#custom-errors)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Getting Started
 
