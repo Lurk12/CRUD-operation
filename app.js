@@ -24,7 +24,7 @@ app.use('/api/:id', people)
 app.use(errorHandlerMiddleware)
 app.use(notFoundMiddleware)
 
-const port = process.env.PORT || 1335
+const port = process.env.PORT || 3000
 
 const start = async(req, res)=>{
     try {
